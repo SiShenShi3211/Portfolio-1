@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+
+<html>
+    
+    
+    <head>
+        <title>William Stobaugh Portfolio</title>
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,200&display=swap');
+        </style>
+        
+        <link href="Styles.css" rel="stylesheet">
+        
+        <script src="Portfolio.js" defer></script>
+        
+    </head>
+
+    
+    
+    <body>
+        
+        
+        
+        
+        <!-- Start container, contains button, when pressed should activate animation -->
+        <div class="startContainer">
+            <a><b>Button</b></a>
+            <b><p style="font-size: 12px; margin-top: 10%;">(You should click it)</p></b>
+            
+            
+        </div>
+        
+        
+        
+        
+        <!-- The website after the transition -->
+        <div id="main">
+            
+            <!-- sideBar, should display the user's current page  -->
+            <div id="sideBar">
+                
+                <!--Sidebar title-->
+                <div id="sideBarTop"><p>Menu</p>   </div>
+                
+                <!--SideBar content -->
+                <div class="sideBarContent">
+                    
+                    <div class="sideBarContentInside">
+                     <p>Home</p>
+                    </div>
+                    
+                    <div class="sideBarContentInside">
+                        <p>About</p>
+                    </div>
+                    
+                    <div class="sideBarContentInside">
+                        <p>Projects</p>
+                    </div>
+                
+                </div>
+                
+            </div>
+            
+            <!--Main text, is edited using javascript depending on the selected page-->
+            
+            <div class="mainText">
+                <div><p> <b>Welcome to the home page! Hello, my name is William Stobaugh, welcome to my portfolio!
+                        For the best experience, view on a desktop with fullscreen enabled.
+                        
+                        <br>
+                        <br>
+                    
+                     This portfolio is all about what I have done, and a little about myself.
+                    You can navigate the portfolio using the menu on the left. Finally, you can check out my social media on the bottom right of the screen. </b></p></div>
+                
+                
+                
+                
+            </div>
+            
+            
+             <!--Title of every page, is edited with javascript-->
+            <div id="mainTitle">
+                <h1>Home</h1>
+            </div>
+            
+             <!-- Icons for social media, clickable images with links-->
+            <div id="socialMedia">
+                <div id="logos">
+                    <!--Logos for instagram and Artstation-->
+                    <a href="https://www.instagram.com/william_but_in_3d/"><img src="Instagram-logo.png" style="height: 20%; width: 20%; margin: 3%;"></a>
+                   <a href="https://www.artstation.com/grimshen"><img src="Artstation-logo.png" style="height: 40%; width: 30%; margin: 3%; border-radius: 10px; overflow: hidden;"></a>
+                </div>
+                
+            </div>
+        
+        </div>
+ 
+    
+        <!--Class contains solid block that will swipe screen upon being called -->
+        <div class="transition">
+            
+            <p></p>
+        </div>
+        
+        
+    </body>
+
+
+</html>

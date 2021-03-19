@@ -1,0 +1,25 @@
+body{
+    background-color: #74b081;
+    font-family: fantasy;
+    font-size: 30px;
+    
+}
+
+table{
+    background-color: #bd5757;
+    border: 2px solid black;
+    border-radius: 7px;
+    
+    width:300px;
+    height: 500px;
+    padding: 10px;
+    
+}
+
+th 
+{
+    font-size: 40px;
+    position: relative;
+    left: -25px;
+    
+}

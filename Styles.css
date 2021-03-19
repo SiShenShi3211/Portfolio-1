@@ -1,0 +1,199 @@
+html, body {
+
+    background-color: #69A197;
+    font-family: 'JetBrains Mono', monospace; 
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX               Start screen  */
+.startContainer {
+    vertical-align: middle;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    background-color: #F0544F;
+    width: 10%;
+    height: 10%;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 15px;
+    box-shadow: 0px 10px 0px #000000;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    display: block;
+    
+}
+
+.startContainer:hover{
+    vertical-align: middle;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    background-color: #F4807C;
+    width: 10%;
+    height: 10%;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 15px;
+    box-shadow: 0px 10px 0px #000000;
+    display: block;
+}
+
+
+.startContainer:active{
+    vertical-align: middle;
+    position: absolute;
+    top: 37%;
+    left: 45%;
+    background-color: #F4807C;
+    width: 10%;
+    height: 10%;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 15px;
+    box-shadow: 0px 0px 0px #000000;
+    display: block;
+    
+}
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX         Transitions    */
+.transition{
+    background-color: #3A2E39;
+    
+    width: 150%;
+    height: 110%;
+    top: -10%;
+    left: -150%;
+    position: absolute;
+}
+
+.transition.start{
+    background-color: #3A2E39;
+    
+    width: 150%;
+    height: 110%;
+    top: -10%;
+    left: -150%;
+    position: absolute;
+    animation-name: transitionAnim;
+    animation-duration: 4s;
+}
+
+@keyframes transitionAnim {
+  0%   {left: -150%;}
+  100% {left: 100%;}    
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX         Main    */
+#main{
+    display: none;
+}
+
+
+.mainText{
+    position: absolute;
+    
+    background-color: #F04842;
+    border-radius: 10px;
+    left: 25%;
+    top: 30%;
+    width: 60%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 20px;
+    color: #000000;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    text-align: center;
+}
+
+#mainTitle{
+   position: absolute;
+    
+    background-color: #F04842;
+    border-radius: 10px;
+    left: 50%;
+    top: 15%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 15px;
+    color: #000000;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX          Side bar    */
+
+#sideBar{
+    background-color: #375852;
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    
+    text-align: center;
+    font-size: 15px;
+    color: white;
+     border-style: solid;
+    border-width: medium;
+    border-color: black;
+    
+}
+
+#sideBarTop {
+    border-bottom: Solid medium black;
+    background-color: #273F3A; 
+    font-size: 30px;    
+    padding: 1%; 
+    
+}
+
+.sideBarContent{
+    background-color: #375851;
+    border-bottom: Solid medium black;
+}
+
+.sideBarContentInside:hover{
+    background-color: black;
+   
+    margin: 2%;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX          Social Media    */
+#socialMedia {
+    top: 95%;
+    left:93%;
+    width: 10%;
+    height: 5%;
+    position: fixed;
+    
+    background-color: #3A2E39;
+    
+    border-top-left-radius: 10px;
+    box-shadow: 0 0 20px #3A2E39;
+}
+
+#socialMedia:hover {
+    top: 95%;
+    left:93%;
+    width: 10%;
+    height: 5%;
+    position: fixed;
+    
+    background-color: #453643;
+    
+    border-top-left-radius: 10px;
+    box-shadow: 0 0 20px #453643;
+}
+
+#logos {
+    margin-left: 5%;
+    margin-top: 3%;
+}   
+
+
